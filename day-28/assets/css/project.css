@@ -1,0 +1,140 @@
+.socialMediaIcon{
+    gap: 15px;
+}
+.first-nav{
+    background-color: #1F1F2E;
+}
+.text-bg2{
+    color: #1F1F2E;
+}
+.contact-info{
+    padding-left: 40px;
+}
+.contact-info .nav li{
+    transition: 0.5s;
+}
+.contact-info .nav li:nth-child(1){
+    padding-right: 15px;
+    border-right: 2px solid white;
+}
+.contact-info .nav li:hover{
+    color: #FF4800;
+}
+.socialMediaInfo{
+    padding-right: 40px;
+}
+.socialMediaInfo .socialMediaIcon .icon{
+    color: white;
+    transition: 0.5s;
+}
+.socialMediaInfo .socialMediaIcon .icon:hover{
+    color: #FF4800;
+}
+.navbar .navbar-nav .nav-link.active {
+    color: #FFFFFF;
+    background-color: #FF4800;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 30px 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    outline: none;
+    transition:0.5s;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+    background-color: #FF4800;
+}
+.text-bg{
+    color: #FF4800;
+}
+.theme-bg{
+    background-color: #FF4800;
+}
+.theme-bg2{
+    background-color: #F2F2F4;
+}
+.navbar .logo{
+    margin-left: 40px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #FF4800;
+    border-color: #FF4800;
+}
+.btn-primary:hover{
+    background-color: #D93D00;
+    border-color: #D93D00;
+}
+.navbar .btn{
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.navbar .btn:hover{
+    background-color: #FF4800;
+    border-color: #FF4800;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.h-70vh{
+    height: 70vh;
+}
+.banner-section{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../img/header.jpg");
+    background-size:cover;
+}
+.banner{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.banner h2{
+    color: #FF4800;
+    font-size:50px;
+    font-weight:bolder;
+}
+.banner h1{
+    color: white;
+    font-size:80px;
+    font-weight: bold;
+}
+.banner .input-group{
+    padding-left:30%;
+    padding-right: 30%;
+    height: 60px;
+}
+.banner .input-group .btn{
+    background-color: #FF4800;
+}
+.banner .input-group input{
+    padding-left: 20px;
+}
+.banner .input-group input:focus{
+    outline:none;
+    /*outline-style: solid;*/
+    /*outline-color: #FF4800;*/
+}
+.play-circle{
+    border-radius:50%;
+}
+.form-input-height{
+    height: 55px;
+}
+.btn-color{
+    background-color: #1F1F2E;
+}
+.btn-color:hover{
+    background-color: #101017;
+}
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.dot-circle{
+    margin-right:10px;
+}
